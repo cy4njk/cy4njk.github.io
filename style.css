@@ -3,7 +3,6 @@
   font-family: 'test';
   src: url('test.woff') format('woff');
 }
-
 /* ------------- STARTER ------------- */ 
 
 *{
@@ -66,8 +65,8 @@ a, a:visited, a:hover {
 
 .box .box-container .link {
 	font-family: 'test';
-	font-size: 28px;
-	padding: 20px 0 0 15px;
+	font-size: 18px;
+	padding: 15px 0 0 15px;
 	text-align: left;
 }
 
@@ -75,7 +74,7 @@ a, a:visited, a:hover {
 
 .container .time {
 	font-family: 'test';
-	font-size: 120px;
+	font-size: 60px;
 	margin-bottom: 20px;
 }
 
@@ -98,9 +97,9 @@ a, a:visited, a:hover {
 }
 
 .box .box-container .heading {
-	margin: 25px 0 9px 15px;
+	margin: 25px 0 1px 15px;
 	font-family: 'test';
-	font-size: 33px;
+	font-size: 20px;
 	text-align: left;
 }
 
@@ -148,7 +147,7 @@ a, a:visited, a:hover {
 	height:23px;
 	position:absolute;
 	right:15px;
-	bottom: -3px;
+	bottom: 4px;
 }
 
 /* ------------- WAVE ANIMATION ------------- */ 
