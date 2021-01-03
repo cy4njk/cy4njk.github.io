@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: #252934;
+	background-color: #f4eeff;
 	color: white;
 }
 
@@ -51,11 +51,11 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 /* ------------- LINK STYLING ------------- */ 
 
 a, a:visited {
-	color: #6C7789;
+	color: white;
 }
 
 a:hover {
-	color: white;
+	color: #a6b1e1;
 }
 
 a, a:visited, a:hover {
@@ -85,7 +85,7 @@ a, a:visited, a:hover {
 }
 
 .box .box-container {
-	background-color: #2E3441;
+	background-color: #dcd6f7;
 	width: 200px;
 	height: 220px;
 	float: left;
@@ -100,13 +100,16 @@ a, a:visited, a:hover {
 	margin: 25px 0 1px 15px;
 	font-family: 'test';
 	font-size: 20px;
+	color: #a6b1e1;
 	text-align: left;
 }
 
 /* ------------- SEARCH STYLING ------------- */ 
-
+.time {
+	color:#a6b1e1;
+}
 .container form {
-	background-color: #2E3441;
+	background-color: #dcd6f7;
 	border-radius: 5px;
 	width: 450px;
 	margin-bottom: 80px;
