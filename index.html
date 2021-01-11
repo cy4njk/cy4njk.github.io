@@ -1,6 +1,7 @@
  <html>
  <head>
 	<meta charset="utf-8">
+	<meta name="msapplication-TileColor" content="#dcd6f7">
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 	<script src="https://kit.fontawesome.com/f00c14539b.js" crossorigin="anonymous"></script>
 	<title>Startpage</title>
@@ -41,9 +42,22 @@
 				<a href="https://drive.google.com/drive/u/0/my-drive" target="_blank">
 					<div class="link" tabindex="7">Home drive</div>
 				</a>
-				<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-					<div class="link" tabindex="8">Gmail</div>
-				</a>
+					<ul class="collapsible popout">
+						<li class="">
+					  		<div class="collapsible-header" tabindex="0">MAILE!!!</div>
+							  <div class="collapsible-body"> 
+								 	<a href="https://outlook.office.com/polsl.pl/"target="_blank">
+										<div class="collapsiblelink" tabindex="7">POLSLMail</div> 
+									<a href="https://mail.google.com/mail/u/0/"target="_blank">
+										<div class="collapsiblelink" tabindex="7">Home Gmail</div> 		
+									</a>
+									<a href="https://mail.google.com/mail/u/1/"target="_blank">
+										<div class="collapsiblelink" tabindex="7">Group Gmail</div>
+									</a>
+							</div>
+						</li>
+					</ul>
+				
 			</div>
 			<div class="box-container">
 				<div class="heading">Hej, chujku</div>
@@ -85,8 +99,13 @@
 		<div class="wave wave3"></div>
 		<div class="wave wave4"></div>
 	</div>
-	
+
+	<script type="text/javascript" src="js/materialize.min.js"></script>
 	<script src="script.js"></script>
-	
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.collapsible');
+		var instances = M.Collapsible.init(elems, {accordion: false});
+	 });</script>
  </body>
  </html>
