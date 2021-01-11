@@ -235,6 +235,7 @@ a, a:visited, a:hover {
 	font-size: 18px;
 	padding: 15px 0 0 15px;
 	text-align: left;
+	background-color: #dcd6f7;
  }
 
  .collapsible .collapsible-body {
