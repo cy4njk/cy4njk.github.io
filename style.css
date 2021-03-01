@@ -270,5 +270,18 @@ a, a:visited, a:hover {
 	font-size: 14px;
 	padding: 5px 0 10px 4.5px;
 	text-align: left;
-
+	
+	
  }
+
+ .collapsible-header:hover {
+		color: #a6b1e1;
+	}
+
+	.collapsible-header{
+		-webkit-transition: all 150ms ease-in-out;
+		-moz-transition: all 150ms ease-in-out;
+		-ms-transition: all 150ms ease-in-out;
+		-o-transition: all 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
+	}
