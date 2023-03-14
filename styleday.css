@@ -11,8 +11,8 @@
 }
 
 body {
-	background-color: #1f2122;
-	color: white;
+	background-color: #f7f7f7;
+	color: black;
 }
 
 /* ------------- TRANSITIONS AND SHADOWS ------------- */
@@ -51,11 +51,11 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 /* ------------- LINK STYLING ------------- */ 
 
 a, a:visited {
-	color: white;
+	color: black;
 }
 
 a:hover {
-	color: #a6b1e1;
+	color: #304dcb;
 }
 
 a, a:visited, a:hover {
@@ -85,7 +85,7 @@ a, a:visited, a:hover {
 }
 
 .box .box-container {
-	background-color: #141616;
+	background-color: #FAF7FF;
 	width: 200px;
 	height: 220px;
 	float: left;
@@ -100,16 +100,16 @@ a, a:visited, a:hover {
 	margin: 25px 0 1px 15px;
 	font-family: 'test';
 	font-size: 20px;
-	color: #a6b1e1;
+	color: #304dcb;
 	text-align: left;
 }
 
 /* ------------- SEARCH STYLING ------------- */ 
 .time {
-	color:#a6b1e1;
+	color:#304dcb;
 }
 .container form {
-	background-color: #141616;
+	background-color: #FAF7FF;
 	border-radius: 5px;
 	width: 450px;
 	margin-bottom: 80px;
@@ -126,7 +126,7 @@ a, a:visited, a:hover {
 .container form .search-field {
 	width: 89%;
 	padding-left: 15px;
-	color: white;
+	color: black;
 	font-size: 20px;
 	font-family: 'test';
 	bottom: -1px;
@@ -142,7 +142,7 @@ a, a:visited, a:hover {
 }
 
 .container form .search-submit::before {
-	background-image:url(google1.svg);
+	background-image:url(googleday.svg);
 	background-position:center center;
 	fill: white;
 	content:"";
@@ -151,7 +151,7 @@ a, a:visited, a:hover {
 	position:absolute;
 	right:15px;
 	bottom: 1px;
-	
+	background-repeat:no-repeat!important;
 }
 
 /* ------------- WAVE ANIMATION ------------- */ 
@@ -236,7 +236,12 @@ a, a:visited, a:hover {
 	font-size: 18px;
 	padding: 15px 0 0 15px;
 	text-align: left;
-	background-color: #141616;
+	background-color: #FAF7FF;
+	user-select: none;
+ }
+ 
+ .collapsible .collapsible-header:hover {
+	cursor: pointer;
  }
 
  .collapsible .collapsible-body {
@@ -246,7 +251,7 @@ a, a:visited, a:hover {
 	text-align: left;
 	box-sizing: border-box;
 	display: none;
-	background-color: #141616;
+	background-color: #FAF7FF;
 	border-radius: 5px;
 	-webkit-box-shadow: 4px 15px 15px -5px rgba(0,0,0,0.25);
 	-moz-box-shadow: 4px 15px 15px -5px rgba(0,0,0,0.25);
@@ -275,7 +280,7 @@ a, a:visited, a:hover {
  }
 
  .collapsible-header:hover {
-		color: #a6b1e1;
+		color: #304dcb;
 	}
 
 	.collapsible-header{
