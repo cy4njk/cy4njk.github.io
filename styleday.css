@@ -155,7 +155,10 @@ a, a:visited, a:hover {
 }
 
 /* ------------- WAVE ANIMATION ------------- */ 
-
+.wave-container{	
+	position: relative;
+	min-height: 150px;	
+}
 .wave-container .wave{
 	position:absolute;
 	bottom:0;
