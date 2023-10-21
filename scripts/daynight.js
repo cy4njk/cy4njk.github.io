@@ -315,20 +315,23 @@ else if (typeof define === 'function' && define.amd) define(SunCalc);
 else window.SunCalc = SunCalc;
 
 }());
-function getLocation() {
-    if (navigator.geolocation) {
-      var lati = position.coords.latitude;
-      var long = position.coords.longtitude
-    } else {
-        var lati = 50.09713;
-        var long = 18.54179;
-    }
+ lati = 50.09713
+ long = 18.54179
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+       lati = position.coords.latitude;
+       long = position.coords.longitude;
+      console.log(`Latitude: ${lati}, Longitude: ${long}`);
+    });
+} else {
+    lati = 50.09713;
+    long = 18.54179;
+    console.log("Geolocation is not supported by this browser.");
   }
-  
 
-var times = SunCalc.getTimes(new Date(), 50.09713, 18.54179);
+var times = SunCalc.getTimes(new Date(), lati, long);
 var sunrise = times.sunrise.getTime()
-var sunset =times.sunset.getTime()
+var sunset = times.sunset.getTime()
 console.log(sunrise)
 console.log(sunset)
 
