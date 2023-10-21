@@ -317,14 +317,18 @@ else window.SunCalc = SunCalc;
 }());
 
 var times = SunCalc.getTimes(new Date(), 50.09713, 18.54179);
-var sunrise = times.sunrise
-var sunset =times.sunset
+var sunrise = times.sunrise.getTime()
+var sunset =times.sunset.getTime()
+console.log(sunrise)
+console.log(sunset)
 
 if (!document.getElementById) document.write('<link rel="stylesheet" type="text/css" href="/css/versions4.css">');
 var d = new Date();
-var currHour = d.getHours();
-    if (currHour >= sunrise && currHour <= sunset) {
+var currHour = d.getTime()
+    if ( currHour >= sunrise && currHour <= sunset) {
         document.write('<link rel="stylesheet" type="text/css" href="styleday.css">');
     } else {
         document.write('<link rel="stylesheet" type="text/css" href="stylenight.css">');
     }
+
+console.log(currHour)
