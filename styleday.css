@@ -30,7 +30,7 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.75);
 	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.75);
 }
-
+.box:hover > #box-container
 .container form, .box .box-container {
 	-webkit-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
 	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);

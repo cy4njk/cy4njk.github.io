@@ -16,7 +16,7 @@ body {
 }
 
 /* ------------- TRANSITIONS AND SHADOWS ------------- */
-
+#box-container:hover > .collapsible-body
 a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 	-webkit-transition: all 150ms ease-in-out;
 	-moz-transition: all 150ms ease-in-out;
