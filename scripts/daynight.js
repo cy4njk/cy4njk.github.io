@@ -330,7 +330,7 @@ if (navigator.geolocation) {
   }
 
 var times = SunCalc.getTimes(new Date(), lati, long);
-var sunrise = times.sunrise.getTime()
+var sunrise = times.sunrise.getTime() - 86400000;
 var sunset = times.sunset.getTime()
 console.log(sunrise)
 console.log(sunset)
