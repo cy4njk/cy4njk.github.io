@@ -36,6 +36,11 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
 	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
 }
+.container form {
+	-webkit-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
+	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
+}
 
 /* ------------- CONTAINER STYLING ------------- */ 
 
